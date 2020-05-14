@@ -28,3 +28,5 @@ __proto__: prototpye for what an object is defined by from Javascript (inheritan
 
 missed info on print function
 
+how to use shuffle-array
+

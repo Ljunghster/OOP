@@ -44,10 +44,12 @@ let teacher1 = new Teacher('Mr Johnson', 54, 'jj@gmail.com', '321 S Fig', 'math'
 console.log(teacher1)
 // Instructor now discussing how to use Person and Teacher constructors together
 
-function Student (name, age, email, address, interest) {
+function Student (name, age, email, address, gpa, grade, favoriteSub) {
     Person.call(this, name, age, email, address)
-    this.interest = interest
+    this.gpa = gpa
+    this.grade = grade
+    this.favoriteSub = favoriteSub
 }
-let student1 = new Student('Lip Philliman', 16, 'OOP@gmail.com', '32 Downtown', 'history')
+let student1 = new Student('Lip Philliman', 16, 'OOP@gmail.com', '32 Downtown', '3.8', 12, 'history')
 console.log(student1)
 
