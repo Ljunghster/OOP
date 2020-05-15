@@ -30,3 +30,7 @@ missed info on print function
 
 how to use shuffle-array
 
+class syntax=declaring constructors by creating a class
+MUCH BETTER to use class syntax
+
+https://github.com/QFults/node04  Quinton's code for today (5/14)
